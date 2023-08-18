@@ -1,0 +1,12 @@
+Data = SWITCH('Fato Arrecadação'[MES],1,CONCATENATE(CONCATENATE("01/" , "01/" ) , 'Fato Arrecadação'[ANO]),
+         2, CONCATENATE(CONCATENATE("01/" , "02/" ) , 'Fato Arrecadação'[ANO]),
+         3, CONCATENATE(CONCATENATE("01/" , "03/" ) , 'Fato Arrecadação'[ANO]),
+         4,CONCATENATE(CONCATENATE("01/" , "04/" ) , 'Fato Arrecadação'[ANO]),
+         5, CONCATENATE(CONCATENATE("01/" , "05/" ) , 'Fato Arrecadação'[ANO]),
+         6,CONCATENATE(CONCATENATE("01/" , "06/" ) , 'Fato Arrecadação'[ANO]),
+         7,CONCATENATE(CONCATENATE("01/" , "07/" ) , 'Fato Arrecadação'[ANO]),
+         8,CONCATENATE(CONCATENATE("01/" , "08/" ) , 'Fato Arrecadação'[ANO]),
+         9,CONCATENATE(CONCATENATE("01/" , "09/" ) , 'Fato Arrecadação'[ANO]),
+         10,CONCATENATE(CONCATENATE("01/" , "10/" ) , 'Fato Arrecadação'[ANO]),
+         11,CONCATENATE(CONCATENATE("01/" , "11/" ) , 'Fato Arrecadação'[ANO]),
+         12,CONCATENATE(CONCATENATE("01/" , "12/" ) , 'Fato Arrecadação'[ANO]))
