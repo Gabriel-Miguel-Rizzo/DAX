@@ -1,0 +1,3 @@
+Calculo Valor Arrecadado Mes Selecionado = CALCULATE([Soma Fato Arrecadação],FILTER(FILTER('Fato Arrecadação',
+'Fato Arrecadação'[MES] = 'Fato Arrecadação'[FiltroMes2]),
+'Fato Arrecadação'[ANO] = SELECTEDVALUE('Arrec ft calc'[ANO])))
